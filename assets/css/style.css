@@ -1,0 +1,174 @@
+body {
+    font-family: Arial;
+    width: 550px;
+}
+
+#frmStripePayment {
+    max-width: 300px;
+    padding: 25px;
+    border: #D0D0D0 1px solid;
+    border-radius: 4px;
+}
+
+.test-data {
+    margin-top: 40px;
+}
+
+.tutorial-table {
+    border: #D0D0D0 1px solid;
+    font-size: 0.8em;
+    color: #4e4e4e;
+}
+
+.tutorial-table th {
+    background: #efefef;
+    padding: 12px;
+    border-bottom: #e0e0e0 1px solid;
+    text-align: left;
+}
+
+.tutorial-table td {
+    padding: 12px;
+    border-bottom: #D0D0D0 1px solid;
+}
+
+#frmStripePayment .field-row {
+    margin-bottom: 20px;
+}
+
+#frmStripePayment div label {
+    margin: 5px 0px 0px 5px;
+    color: #49615d;
+    width: auto;
+}
+
+.demoInputBox {
+    padding: 10px;
+    border: #d0d0d0 1px solid;
+    border-radius: 4px;
+    background-color: #FFF;
+    width: 100%;
+    margin-top: 5px;
+    box-sizing:border-box;
+}
+
+.demoSelectBox {
+    padding: 10px;
+    border: #d0d0d0 1px solid;
+    border-radius: 4px;
+    background-color: #FFF;
+    margin-top: 5px;
+}
+
+select.demoSelectBox {
+    height: 35px;
+    margin-right: 10px;
+}
+
+.error {
+    background-color: #FF6600;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.success {
+    background-color: #c3c791;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.info {
+    font-size: .8em;
+    color: #FF6600;
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
+
+.btnAction {
+    background-color: #586ada;
+    padding: 10px 40px;
+    color: #FFF;
+    border: #5263cc 1px solid;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+.btnAction:focus {
+    outline: none;
+}
+
+.column-right {
+    margin-right: 6px;
+}
+
+.contact-row {
+    display: inline-block;
+}
+
+.cvv-input {
+    width: 60px;
+}
+
+#error-message {
+    margin: 0px 0px 10px 0px;
+    padding: 5px 25px;
+    border-radius: 4px;
+    line-height: 25px;
+    font-size: 0.9em;
+    color: #ca3e3e;
+    border: #ca3e3e 1px solid;
+    display: none;
+    width: 300px;
+}
+
+#success-message {
+    margin: 0px 0px 10px 0px;
+    padding: 5px 25px;
+    border-radius: 4px;
+    line-height: 25px;
+    font-size: 0.9em;
+    color: #3da55d;
+    border: #43b567 1px solid;
+    width: 300px;
+}
+
+.display-none {
+    display:none;
+}
+
+#response-container {
+    padding: 40px 20px;
+    width: 270px;
+    text-align:center;
+}
+
+
+.ack-message {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#response-container.success {
+    border-top: #b0dad3 2px solid;
+    background: #e9fdfa;
+}
+
+#response-container.error {
+    border-top: #c3b4b4 2px solid;
+    background: #f5e3e3;
+}
+
+.img-response {
+    margin-bottom: 30px;
+}
+
+#loader {
+    display: none;
+}
+
+#loader img {
+    width: 45px;
+    vertical-align: middle;
+}
